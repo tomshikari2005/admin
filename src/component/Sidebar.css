@@ -1,0 +1,82 @@
+.mainSidebar{
+    flex:0.7;
+    height: 122vh;
+    background-color:#1c1a25;
+    color: white;
+    
+    /*  */
+    
+}
+.adminContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 52px;
+}
+
+.adminContainer h2{
+    font-size: 26px;
+    padding-top: 6px;
+    padding-left: 10px;
+    color: yellow;
+}
+
+
+.uiContainer h5{
+    display: flex;
+    font-size: 18px;
+    padding-left: 25px;
+}
+
+.liContainer{
+    display: flex;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    /* margin-top: 7px; */
+    padding-left: 50px;
+    padding-top: 12px;
+}
+
+.liContainer:hover{
+    color: #f16e16;
+    cursor: pointer;
+    font-weight: 620;
+    background-color: rgba(191, 197, 197, 0.096);
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.liContainer i{
+    margin-top: -16px;
+}
+
+.liContainer p{
+    padding: 2px 0px;
+    padding-left: 20px;
+}
+.liContainerNav{
+    text-decoration: none;
+}
+.uiContainer .click{
+   height: 60px;
+   display: block;
+   text-align: center;
+    padding-top: 10px;
+    padding-right: 20%;
+}
+.click button{
+    border: none;
+    outline: none;
+    padding: 8px 30px;
+    border-radius: 20px;
+    background-color: #1c1a25;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+.click button:hover{
+    background-color: rgba(191, 197, 197, 0.096);
+    color: #f16e16;
+}

@@ -1,0 +1,31 @@
+.Employees{
+    flex: 4;
+    background-color: #0e0c17;
+    
+}
+.MuiButtonBase-root.MuiCheckbox-root.MuiCheckbox-colorPrimary.MuiCheckbox-sizeMedium.PrivateSwitchBase-root.MuiCheckbox-root.MuiCheckbox-colorPrimary.MuiCheckbox-sizeMedium.MuiCheckbox-root.MuiCheckbox-colorPrimary.MuiCheckbox-sizeMedium.MuiDataGrid-checkboxInput{
+    color: #f16e16;
+}
+.MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall{
+    color: #f16e16;
+}
+.MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall.MuiDataGrid-sortIcon{
+    color: #f16e16;
+}
+.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiSelect-icon.MuiTablePagination-selectIcon.MuiSelect-iconStandard{
+    color: #f16e16;
+}
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.MuiTablePagination-toolbar{
+    color: white;
+}
+.userListEdit{
+    background-color: #0e0c17;
+    border: none;
+    border-radius: 12px;
+}
+.userListEdit:hover{
+    color: #f16e16;
+    font-weight: 700;
+    font-size: larger;
+    background-color: rgba(191, 197, 197, 0.096);
+}
