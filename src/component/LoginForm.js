@@ -19,6 +19,14 @@ function LoginForm({onLogin}) {
     }
   };
 
+  const checkPass = () =>{
+    const pass = document.getElementById('pass');
+    if(pass.type === 'password'){
+      pass.type = 'text'
+    }else{
+      pass.type = 'password'
+    }
+  };
 
   return (
     <>
@@ -39,14 +47,14 @@ function LoginForm({onLogin}) {
               <i className="bi bi-person-fill icon"></i>
             </div>
             <div className='input-box'>
-              <input type='password' placeholder='Password' required 
+              <input type='password' placeholder='Password' required id='pass'
                value={password} onChange={(e) => setPassword(e.target.value)}
               />
               <i className="bi bi-shield-lock-fill icon"></i>
             </div>
 
             <div className="remember-forget">
-              <label><input type='checkbox' />Remember me</label>
+              <label><input type='checkbox' onClick={checkPass}/>Show Password</label>
             </div>
               <button type='submit'>Login</button>
 
