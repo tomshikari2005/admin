@@ -1,0 +1,14 @@
+.main{
+    flex: 4;
+    background-color: #0e0c17;
+    color: white;
+
+}
+
+.card1{
+    height:250px;
+    background-color: #1c1a25;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+

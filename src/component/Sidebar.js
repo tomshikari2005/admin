@@ -32,10 +32,12 @@ function Sidebar({ onLogout }) {
             <i className="bi bi-journal-check"></i>
             <p>Attendance</p>
           </li>
+          <Link to={"/report"} style={{ textDecoration: "none", color:"white"}}>
           <li className='liContainer' >
             <i className="bi bi-briefcase"></i>
             <p>Report</p>
           </li>
+          </Link>
           <li className='liContainer' >
             <i className="bi bi-calendar-check"></i>
             <p>Calander</p>

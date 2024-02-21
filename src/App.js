@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import LoginForm from './component/LoginForm';
 import Employee from './pages/Employee/Employee';
 import Home from './pages/Home/Home';
+import Reports from './pages/Report/Reports';
 
 
 function App() {
@@ -32,7 +33,7 @@ return (
         <Route path="/login" element={isLoggedIn ? <Navigate to="/" /> : <LoginForm onLogin={handleLogin} />} />
         <Route path="/" element={isLoggedIn ? <Home onLogout={handleLogout}  /> : <Navigate to="/login" />} />
         <Route path="/employee" element={isLoggedIn ? <Employee /> : <Navigate to="/login" />} />
-       
+        <Route path="/report" element={isLoggedIn ?<Reports/> : <Navigate to="/login" /> } />
         {/* Redirect to the last visited page if it exists */}
         <Route path="/" element={<Navigate to={localStorage.getItem('lastVisitedPage') || '/'} />} />
       </Routes>
